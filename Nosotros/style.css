@@ -1,0 +1,59 @@
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-size: 16px;
+}
+
+.main-frame{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  align-items: center;
+  width: 100%;
+  background-color: peru;
+  border-radius: 1rem;
+}
+
+h1{
+  color:white;
+	font-size: 8rem;
+  transition: font-size 0.3s;
+}
+
+h1:hover{
+  font-size: 8.5rem;
+}
+
+.frame-div{
+  margin: 6rem 3rem 2rem 3rem;
+}
+
+
+.firstPara{
+  font-size: 22px;
+  margin-bottom: 6rem;
+  text-align: center;
+  line-height: 1.5;
+  background-color: violet;
+  /* background: linear-gradient(to bottom, red, blue); */
+}
+
+.secondPara{
+  background-color: antiquewhite;
+}
+
+.thirdPara{
+  background-color: aqua;
+}
+
+.fourthPara{
+  background-color: bisque;
+}
+
+.fifthPara{
+  background-color: chocolate;
+}
+
+

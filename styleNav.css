@@ -1,0 +1,33 @@
+a{
+  font-size: 20px;
+  text-decoration: none;
+  font-style: oblique;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  transition: color 0.3s;
+  color: rgb(21, 8, 163);
+}
+
+a:hover{
+  color: peru;
+}
+
+.frame-nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around; 
+  width: 100%;
+  
+}
+
+.frame-nav ul{
+  display: flex;
+  background-color: rgba(255, 228, 196, 0.91);
+  border-radius: 2rem;
+  justify-content: space-around;  
+  align-items: center;
+  list-style: none;
+  height: 3rem;
+  width: 100%;
+  }
+  
