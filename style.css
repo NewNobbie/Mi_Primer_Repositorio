@@ -6,22 +6,26 @@ body{
   font-size: 16px;
 }
 
-.frame-nav{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: aqua;
-  
+h1{
+  color:white;
+	font-size: 8rem;
+  transition: font-size 0.3s;
 }
 
-.frame-nav ul{
-  display: flex;
-  background-color: bisque;
-  justify-content: space-around;  
-  align-items: center;
-  list-style: none;
-  width: 100%;
-  }
+h1:hover{
+  font-size: 8.5rem;
+}
+
+
+h3{
+  text-align: center;
+  transition: color 0.5s;
+}
+
+h3:hover{
+  color: antiquewhite;
+}
+
 
 body section{
   display: flex;
@@ -29,6 +33,18 @@ body section{
   margin-top: 2rem;
   align-items: center;
   width: 100%;
-  background-color: peru;
+  background-color: peru;border-radius: 1rem;
+}
+
+.divOne{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgOne{
+  display: 100%;
+  margin: 5rem 5rem 5rem 5rem;
+  border-radius: 2rem;
 }
 

@@ -1,21 +1,51 @@
+html{
+  font-size: 62.5%;
+}
 
+body{
+  font-size: 16px;
+}
+
+body section{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  align-items: center;
+  width: 100%;
+  background-color: peru;border-radius: 1rem;
+}
+
+h1{
+  color:white;
+	font-size: 8rem;
+}
+
+h1:hover{
+  font-size: 8.5rem;
+}
+
+
+/* Table */
 
 thead,
 tfoot {
-  background-color: #2c5e77;
+  background-color: #9a8215;
   color: #fff;
 }
 
 tbody {
   background-color: #e4f0f5;
+  
 }
 
 table {
-  border-collapse: collapse;
-  border: 2px solid rgb(140 140 140);
+  border-radius: 2rem;
+  padding: 10px;
+  border: 3px solid rgb(239, 239, 239);
   font-family: sans-serif;
-  font-size: 0.8rem;
+  font-size: 3rem;
   letter-spacing: 1px;
+  margin-bottom: 2rem;
 }
 
 caption {
